@@ -75,5 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cell.textContent = "";
       cell.classList.remove("X", "O");
     });
+
+    score.innerText = "";
   }
 });
